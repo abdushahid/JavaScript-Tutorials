@@ -46,3 +46,9 @@ console.log(Boolean2)
 let aNumber = 44;
 let stringNumber = String(aNumber)
 console.log(typeof stringNumber)
+
+// Operators
+console.log(1 + "2");
+console.log("1" + 2);
+console.log("1" + 2 + 2);
+console.log(1 + 2 + "2");
