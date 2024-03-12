@@ -28,3 +28,6 @@ const myObject {
 const myFunction = function(){
     console.log("Hello world")
 }
+
+
+//Stack and Heap Memory
