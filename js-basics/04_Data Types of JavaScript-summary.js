@@ -20,10 +20,11 @@ const bigNumber = 12345623434534243n;
 
 const myArray = ["Arshad", "Riwan", "Imran"]
 
-const myObject {
+const myObject = {
     name : "Shahid",
-    age : 22,
-}
+    age : 22
+    };
+  
 
 const myFunction = function(){
     console.log("Hello world")
