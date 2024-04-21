@@ -35,8 +35,40 @@ const obj5 = {...obj1, ...obj2}
 
 
 // Find all keys and values of an object
-console.log(fbUser)
-console.log(Object.keys(fbUser));
-console.log(Object.values(fbUser));
-console.log(Object.entries(fbUser));  // convert each key-value pair to arry
-console.log(fbUser.hasOwnProperty("isLoggedIn"));
+// console.log(fbUser)
+// console.log(Object.keys(fbUser));
+// console.log(Object.values(fbUser));
+// console.log(Object.entries(fbUser));  // convert each key-value pair to arry
+// console.log(fbUser.hasOwnProperty("isLoggedIn"));
+
+
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "Shahid"
+}
+
+// course.courseInstructor
+
+
+const {courseInstructor} = course 
+console.log(courseInstructor);
+
+const {courseInstructor: instructor} = course // Rename key
+console.log(instructor);
+
+
+
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
+
