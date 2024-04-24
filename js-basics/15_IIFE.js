@@ -6,7 +6,8 @@
     console.log(`DB CONNECTED`);
 })();
 
-( (name) => {
+( (name) => {       // Named IIFE
     console.log(`DB CONNECTED TWO ${name}`);
-} )('hitesh')
+} )('hitesh'); // You need to end it with semi-colon
+
 
