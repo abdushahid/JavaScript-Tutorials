@@ -19,6 +19,13 @@ for (let i = 1; i <= 10; i++) {
    }
     
 }
+let age = 0;
+for (let age = 0; age <= 24; age++) {
+    // Do something with the current age here
+    console.log("Current age:", age);
+  }
+  
+
 let myArray = ["flash", "batman", "superman"]
 //console.log(myArray.length);
 for (let index = 0; index < myArray.length; index++) {
@@ -33,7 +40,7 @@ for (let index = 0; index < myArray.length; index++) {
 // for (let index = 1; index <= 20; index++) {
 //     if (index == 5) {
 //         console.log(`Detected 5`);
-//         break
+//         break   // it stops the execution of the remaining loop when a specific condition is meet.
 //     }
 //    console.log(`Value of i is ${index}`);
     
@@ -42,8 +49,8 @@ for (let index = 0; index < myArray.length; index++) {
 for (let index = 1; index <= 20; index++) {
     if (index == 5) {
         console.log(`Detected 5`);
-        continue
+        continue // skip the condition
     }
-   console.log(`Value of i is ${index}`);
-    
+//    console.log(`Value of i is ${index}`);
 }
+
