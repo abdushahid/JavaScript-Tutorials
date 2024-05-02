@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Learing</title>
+</head>
+<body>
+    <h1 id="titleid" class="titleclass">
+        My first try on DOM
+    </h1>
+    <P>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, optio debitis tenetur itaque voluptatem facilis aliquid, velit dolorum omnis labore ipsam iusto repellat. Accusamus nemo, voluptates eum esse ratione est.
+    </P>
+
+    <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+</body>
+</html>
+
+<!-- 
+document.getElementById("id2")
+document.getElementById("id2").id
+document.getElementById("id2").className
+document.getElementById("id2").getAttribute("id")
+document.getElementById("id2").getAttribute("class")
+document.getElementById("id2").setAttribute("id", "123123")
+document.getElementById("id2").setAttribute("class", "class1", "class2")
+document.getElementById("id2").className
+
+
+
+Convert element to variable
+
+const myTitle = document.getElementById("id2")
+undefined
+myTitle
+<h1 id=​"id2" class=​"titleclass">​ My first try on DOM ​</h1>​
+myTitle.style.backgroundColor = "blue"
+'blue'
+myTitle.style.padding = "20px"
+'20px'
+
+
+
+innerHTML, inntertext and textcontent
+
+
+myTitle.textContent //it displays all the text even with Display:none: property
+'\n        My first try on DOM\n    '
+myTitle.innerHTML // gets inner element with code
+'\n        My first try on DOM\n    '
+myTitle.innerText //gets visible text only
+'My first try on DOM'
+
+
+
+
+
+document.querySelector("ul")
+<ul>​…​</ul>​<li>​…​</li>​<li>​…​</li>​<li>​…​</li>​</ul>​
+const onorderList = document.querySelector("ul")
+undefined
+onorderList
+<ul>​…​</ul>​
+onorderList.style.backgroundColor = "blue"
+'blue'
+
+//Change Text
+onorderList.innerHTML= "Four"
+
+
+// Node List
+const templi = document.querySelectorAll("li")
+undefined
+templi.style.color = "red"
+VM2634:1 Uncaught TypeError: Cannot set properties of undefined (setting 'color')
+    at <anonymous>:1:20
+(anonymous) @ VM2634:1
+templi[0].style.color = "red"
+
+
+Convert HTML Collection to Array
+Array.from(variable)
+
+ -->
